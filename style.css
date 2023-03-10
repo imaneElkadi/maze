@@ -1,0 +1,30 @@
+#board {
+    display: inline-block;
+    border: 2px solid black;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: lightgray;
+  }
+  
+  #status {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
